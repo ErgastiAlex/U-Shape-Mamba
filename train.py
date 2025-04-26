@@ -25,7 +25,6 @@ from time import time
 import argparse
 import logging
 import os
-from download import find_model
 from my_metric import MyMetric
 
 from models import USM_models
