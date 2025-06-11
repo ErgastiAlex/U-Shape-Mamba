@@ -40,14 +40,13 @@ accelerate launch sample.py --model USM-B/1 \
 # Citation
 If you use U-Shape Mamba in your research, please cite:
 ```
-@misc{ergasti2025ushapemambastatespace,
-      title={U-Shape Mamba: State Space Model for faster diffusion}, 
-      author={Alex Ergasti and Filippo Botti and Tomaso Fontanini and Claudio Ferrari and Massimo Bertozzi and Andrea Prati},
-      year={2025},
-      eprint={2504.13499},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2504.13499}, 
+@InProceedings{Ergasti_2025_CVPR,
+    author    = {Ergasti, Alex and Botti, Filippo and Fontanini, Tomaso and Ferrari, Claudio and Bertozzi, Massimo and Prati, Andrea},
+    title     = {U-Shape Mamba: State Space Model for faster diffusion},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
+    month     = {June},
+    year      = {2025},
+    pages     = {3251-3258}
 }
 ```
 
