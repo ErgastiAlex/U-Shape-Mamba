@@ -40,14 +40,17 @@ accelerate launch sample.py --model USM-B/1 \
 # Citation
 If you use U-Shape Mamba in your research, please cite:
 ```
-@InProceedings{Ergasti_2025_CVPR,
-    author    = {Ergasti, Alex and Botti, Filippo and Fontanini, Tomaso and Ferrari, Claudio and Bertozzi, Massimo and Prati, Andrea},
-    title     = {U-Shape Mamba: State Space Model for faster diffusion},
-    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
-    month     = {June},
-    year      = {2025},
-    pages     = {3251-3258}
-}
+@INPROCEEDINGS{11147760,
+  author={Ergasti, Alex and Botti, Filippo and Fontanini, Tomaso and Ferrari, Claudio and Bertozzi, Massimo and Prati, Andrea},
+  booktitle={2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={U-Shape Mamba: State Space Model for Faster Diffusion}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={3242-3249},
+  keywords={Image quality;Image synthesis;Computational modeling;Memory management;Diffusion models;Hardware;Computational efficiency;Image restoration;Decoding;Pattern matching;mamba;diffusion model;flow matching},
+  doi={10.1109/CVPRW67362.2025.00307}}
+
 ```
 
 We thank [DiT](https://github.com/facebookresearch/DiT) and [MambaIR](https://github.com/csguoh/MambaIR) for their open code repository.
